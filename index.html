@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swapnil das</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(8, 8, 8)">
+    <header style="height: 100px; width: 100%;background-color: aliceblue;"></header>
+ 
+
+        <div class="left-container">
+            <div class="con">
+                <div style="margin-top: 5px;" id="triangle"></div>
+                <h3 style="margin-left: 35%;">Triangle</h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="base" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="height" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="btnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+
+
+
+            <div class="con">
+                <div style="margin-top: 5px;" id="parallelogram"></div>
+                <h3 style="margin-left: 35%;">Parallelogram</h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="paraBase" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="paraHeight" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="paraBtnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+
+
+            <div class="con">
+                <div style="margin-top: 5px;" id="rectangle"></div>
+                <h3 style="margin-left: 35%;">Rectangle</h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="recBase" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="recHeight" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="recbtnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+
+
+            <div class="con">
+                <div style="margin-top: 5px;" id="pentagon"></div>
+                <h3 style="margin-left: 35%;">pentagon</h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="pentBase" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="pentHeight" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="pentbtnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+
+
+            <div class="con">
+                <div style="margin-top: 5px;" id="ellipse"></div>
+                <h3 style="margin-left: 35%;">Ellipse</h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="ellbase" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="ellheight" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="ellbtnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+
+
+            <div class="con">
+                <div style="margin-top: 5px;" id="rhombus"></div>
+                <h3 style="margin-left: 35%;">Rhombus </h3>
+                <h5 style="margin-left: 22%;">Area(A) = 0.5 * b * h</h5>
+                    <input style="width: 55px;margin-left: 13%;" type="text" id="rhobase" name="name" required>
+                    <label for="cm">CM</label>
+                    <input style="width: 55px;" type="text" id="rhoheight" name="name" required>
+                    <label for="cm">CM</label>
+                <button id="rhobtnheight" class="mybutton" type="button">Calculate</button>
+            </div>
+        </div>
+
+
+        <div class="right-container">
+            <h2 style="text-decoration: underline; text-align: center;">AREA CALCULATE</h2>
+            <ul style="list-style: none;" id="triangleoutput"></ul>
+        </div>
+
+
+     
+    <script src="index.js"></script>
+</body>
+</html>
